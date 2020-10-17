@@ -10,7 +10,7 @@ a {
 	  text-decoration: none; /* This means we do not want hyperlinks to be underlined */
 	}
 
-@media only screen and (max-width:1000px)
+@media only screen and (max-width:600px)
 {
 	img{
 		float:left;
@@ -47,7 +47,7 @@ img{
 	text-align:center;
 	width: 600px ;
 	max-width: 100% ;
-	margin-left: 20% ;
+	margin-left: 45% ;
 	margin-right: auto ;
 	
 }
