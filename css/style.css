@@ -10,14 +10,14 @@ a {
 	  text-decoration: none; /* This means we do not want hyperlinks to be underlined */
 	}
 
-@media only screen and (max-width:600px)
+@media  screen and (max-width:800px)
 {
 	img{
 		float:left;
 		margin-left:20%;
 		border-radius: 175px;
 		height:550px;
-		width: 420px;
+		width: 400px;
 	}
 	
 	
@@ -36,21 +36,8 @@ a {
 	}
 	  
 }
-img{
-	float:left;
-	margin-left:12%;
-	border-radius: 175px;
-	height:550px;
-	width: 420px;
-}
-.content{
-	text-align:center;
-	width: 600px ;
-	max-width: 100% ;
-	margin-left: 45% ;
-	margin-right: auto ;
-	
-}
+
+
   
 	body {
 	  background-color:rgb(37, 36, 36);
