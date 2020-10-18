@@ -12,6 +12,9 @@ a {
 
 @media  screen and (max-width:800px)
 {
+.main{
+text-align:center;
+}
 	img{
 		float:left;
 		margin-left:10%;
