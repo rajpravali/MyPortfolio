@@ -14,7 +14,7 @@ a {
 {
 	img{
 		float:left;
-		margin-left:20%;
+		margin-left:10%;
 		border-radius: 175px;
 		height:550px;
 		width: 400px;
@@ -22,17 +22,22 @@ a {
 	
 	
 	.content{
-		text-align:center;
-		width: 600px ;
+		/* text-align:center; */
+		/* width: 600px ; */
 		max-width: 100% ;
-		margin-left: 30% ;
-		margin-right: auto ;
+		/* margin-left: 30% ; */
+		/* margin-right: auto ; */
 		
 	}
 
 	.pra{
 		text-align: center; 
-		margin-left: 50%;
+		margin-left: 15%;
+		width:100%;
+		
+	}
+	.icons{
+		margin-right:30%;
 	}
 	  
 }
@@ -43,9 +48,6 @@ img{
 		height:550px;
 		width: 400px;
 	}
-
-
-  
 	body {
 	  background-color:rgb(37, 36, 36);
 	  /* set the background color here */
@@ -71,8 +73,9 @@ img{
   
 	h2 {
 	  color:goldenrod;
-	  margin-bottom: 2.5rem;
+	  margin-bottom: 2rem;
 	  margin-top:2.5rem;
+	  
 	  /* set the text color of to #075AAB here */
 	  /* set both the bottom margin and top margin to 2.5rem here */
 	 }
@@ -94,6 +97,8 @@ img{
 	hr {
 	  margin-bottom: 3rem;
 	  margin-top: 3rem;
+	  width:150%;
+	  
 	}
 	
 	/* this controls how the bullet points in the resume page looks */
