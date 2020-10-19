@@ -10,45 +10,7 @@ a {
 	  text-decoration: none; /* This means we do not want hyperlinks to be underlined */
 	}
 
-@media  screen and (max-width:800px)
-{
-	img{
-		float:left;
-		margin-left:10%;
-		border-radius: 175px;
-		height:550px;
-		width: 400px;
-	}
-	
-	
-	.content{
-		
-		max-width: 100% ;
-		
-		
-	}
-	.main{
-	margin-left:20%;
-	width:100%;
-	
 
-	}
-
-	.pra{
-		text-align: center; 
-		margin-left: 15%;
-		width:100%;
-		
-	}
-	.icons{
-		margin-right:30%;
-	}
-	code{
-		margin-left:40%;
-		width:100%;
-	}
-	  
-}
 img{
 		float:left;
 		margin-left:10%;
@@ -65,7 +27,7 @@ img{
 	  /* set the font here */
 	  text-align: center;
 	  /* set the text alignment here */
-	  width:100%;
+	  
 	 }
   
 	footer {
@@ -114,4 +76,47 @@ img{
 	  display: table;
 	  margin: 0 auto;
 	  text-align: left;
+	}
+
+	@media  screen and (max-width:800px)
+	{
+		img{
+			float:left;
+			margin-left:10%;
+			border-radius: 175px;
+			height:550px;
+			width: 400px;
+		}
+		
+		
+		.content{
+			
+			max-width: 100% ;
+			
+			
+		}
+		.main{
+		margin-left:10%;
+		width:100%;
+		
+	
+		}
+		.pra{
+			text-align: center; 
+			margin-left: 15%;
+			width:100%;
+			
+		}
+		.icons{
+			margin-right:30%;
+		}
+		
+		footer{
+			width:80%;
+		}
+		.copyright{
+			margin-left:40%;
+			text-align:center;
+		}
+		  
 	}
